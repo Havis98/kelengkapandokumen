@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checklist Kelengkapan</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Checklist Kelengkapan</h2>
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Kelengkapan</th>
+      <th>Detail</th>
+      <th>Checklist</th>
+    </tr>
+  </thead>
+  <tbody id="checklist-table">
+    <tr>
+      <td>1</td>
+      <td>Kartu BPJS/Asuransi Kesehatan</td>
+      <td>Kartu BPJS atau asuransi kesehatan lainnya (asli dan fotokopi)</td>
+      <td><input type="checkbox" class="checklist-item" data-id="1"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ijazah & SKHUN SD</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="2"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Ijazah & SKHUN SMP</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="3"></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Ijazah & SKHUN SMA/Sederajat</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="4"></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Ijazah S1, S1 Profesi, S2 Spesialis</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="5"></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Transkrip Nilai</td>
+      <td>Asli dan fotokopi legalisir (S1, S1 Profesi, S2 Spesialis)</td>
+      <td><input type="checkbox" class="checklist-item" data-id="6"></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>STR/STSI</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="7"></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Akta Kelahiran</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="8"></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Kartu Tanda Penduduk (KTP)</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="9"></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Kartu Keluarga</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="10"></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Surat Permohonan Menjadi Anggota Polri</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="11"></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Surat Keterangan Sehat</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="12"></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Surat Keterangan Catatan Kepolisian (SKCK)</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="13"></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Surat Persetujuan Orangtua/Wali</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="14"></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Surat Pernyataan Belum Pernah Menikah</td>
+      <td>Asli dan fotokopi legalisir</td>
+      <td><input type="checkbox" class="checklist-item" data-id="15"></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Daftar Riwayat Hidup</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="16"></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Surat Perjanjian Ikatan Dinas Pertama</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="17"></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Surat Pernyataan Tidak Terikat Perjanjian Ikatan Dinas</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="18"></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Surat Pernyataan Orangtua/Wali</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="19"></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Flashdisk</td>
+      <td>Berisi hasil scan berkas persyaratan administrasi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="20"></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Surat Pernyataan Tidak Melakukan KKN</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="21"></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Surat Pernyataan Tidak Mendukung Organisasi Terlarang</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="22"></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Surat Pernyataan Tidak Melanggar Norma</td>
+      <td>Asli dan fotokopi</td>
+      <td><input type="checkbox" class="checklist-item" data-id="23"></td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Pas Foto</td>
+      <td>Ukuran 4x6, latar belakang merah</td>
+      <td><input type="checkbox" class="checklist-item" data-id="24"></td>
+    </tr>
+   
+  </tbody>
+</table>
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const checklistItems = document.querySelectorAll('.checklist-item');
+    
+    // Load saved checklist status from localStorage
+    checklistItems.forEach(item => {
+      const id = item.getAttribute('data-id');
+      const isChecked = localStorage.getItem(`checklist-item-${id}`) === 'true';
+      item.checked = isChecked;
+    });
+
+    // Save checklist status to localStorage on change
+    checklistItems.forEach(item => {
+      item.addEventListener('change', (event) => {
+        const id = item.getAttribute('data-id');
+        localStorage.setItem(`checklist-item-${id}`, item.checked);
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
